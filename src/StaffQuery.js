@@ -78,20 +78,12 @@ function StaffQuery() {
           </ListItem>
         </List>
 <br></br><br></br>
-        <div>
-        <TextField
-          align="right" 
-          id="standard-full-width"
-          label="Student Information"
-          style={{ margin: 15 }}
-          placeholder="Enter student number"
-          helperText="Display student information!"
-          fullWidth
-          margin="normal"
-          InputLabelProps={{
-            shrink: true,
-          }}
-        />
+<div>
+<form className={classes.root} noValidate autoComplete="off">
+<h3>Search student Information</h3>
+      <TextField id="standard-basic" label="Enter Student number" />
+    </form>
+         <br></br>
       </div>
       </div>
       </div>
